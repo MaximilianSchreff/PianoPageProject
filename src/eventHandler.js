@@ -1,9 +1,9 @@
 document.addEventListener("keydown", function() {
     if (event.code === "KeyA") {
-        let audio = new Audio("/Audios/A.mp3");
+        let audio = new Audio("PianoPageProject/Audios/A.mp3");
         audio.play();
     } else if (event.code === "KeyS") {
-        let audio = new Audio("/Audios/S.mp3");
+        let audio = new Audio("PianoPageProject/Audios/S.mp3");
         audio.play();
     } else if (event.code === "KeyD") {
         let audio = new Audio("../Audios/D.mp3");
