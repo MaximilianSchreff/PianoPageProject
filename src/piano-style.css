@@ -1,0 +1,82 @@
+body {
+    background-color: #cd9575;
+}
+
+h1 {
+    text-align: center;
+}
+
+#instructions {
+    text-align: center;
+}
+
+kbd {
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+#black-keyW {
+    left: 54px;
+}
+
+#black-keyE {
+    left: 75px;
+}
+
+#black-keyT {
+    left: 188px;
+}
+
+#black-keyY {
+    left: 208px;
+}
+
+#black-keyU {
+    left: 229px;
+}
+
+.black-key {
+    color: white;
+    background-color: black;
+    height: 180px;
+    width: 70px;
+    max-height: 10vh;
+    max-width: 8vw;
+    padding-top: 140px;
+}
+
+.white-key {
+    background-color: white;
+    height: 300px;
+    width: 90px;
+    max-height: 15vh;
+    max-width: 12vw;
+    border: solid lightgray 3px;
+    padding-top: 250px;
+    margin-left: -6px;
+}
+
+.white-keys {
+    margin-top: 80px;
+    width: max-content;
+    max-width: 80vw;
+    position: relative;
+    z-index: 0;
+}
+
+.black-keys {
+    width: auto;
+    position: absolute;
+    z-index: 1;
+}
+
+#piano {
+    width: max-content;
+    margin: auto;
+}
+
+#foot-note {
+    text-align: end;
+}
